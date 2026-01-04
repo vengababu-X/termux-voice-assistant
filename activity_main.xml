@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press mic and speak"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/micButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎤 Speak"/>
+</LinearLayout>
